@@ -1,0 +1,134 @@
+* {
+    line-height: 1.6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 400;
+}
+
+
+/*
+* #.#. Welcome Page
+*
+*/
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.welcome.row {
+    margin-bottom: 15px;
+}
+
+small.thank-you-msg {
+    float: right;
+    font-style: italic;
+}
+
+.welcome.row h1 {
+    font-size: 25px;
+    font-weight: 700;
+}
+
+span.theme-name {
+    font-size: 35px;
+    font-weight: 700;
+    color: #4CAF50;
+    letter-spacing: 0.5px;
+}
+
+span.theme-version {
+    font-size: 18px;
+    color: #fff;
+    margin-left: 30px;
+    background-color: #4CAF50;
+    padding: 2px 15px 2px 10px;
+    font-weight: 600;
+    font-style: italic;
+
+}
+
+p.welcome-message {
+    font-size: 16px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+caption {
+    text-align: left;
+    font-size: 18px;
+    padding: 5px;
+    letter-spacing: 1px;
+    background-color: #d9d9d9;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.system-status-row {
+    margin-right: 20px;
+}
+
+.system-status-row table {
+    min-width: 100%;
+    max-width: 95%;
+    margin-left: auto;
+    border: 1px solid #d9d9d9;
+    margin-right: auto;
+    background-color: #fff;
+    margin-bottom: 40px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+}
+
+.system-status-row table tr td {
+    padding: 5px 0px 5px 10px;
+    width: 50%;
+    font-size: 14px;
+}
+
+.system-status-row table tr:nth-child(even) {
+    background-color: #e6e6e6;
+}
+
+
+/*
+* #.#. Registration Page
+*
+*/
+
+p.registration-message {
+    font-size: 15px;
+    margin-top: 40px;
+}
+
+p.enter-token {
+    margin-top: 50px;
+    letter-spacing: 0.2px;
+    font-size: 15px;
+}
+
+.registration-form {
+    width: 100%;
+}
+
+.token-field {
+    width: 350px;
+    height: 40px;
+    padding: 5px;
+}
+
+.submit-token {
+    height: 40px;
+    padding: 3px 12px 5px 12px;
+    background-color: #007cba;
+    color: #fff;
+    border: 2px solid #007cba;
+    font-size: 18px;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-radius: 4px;
+}
